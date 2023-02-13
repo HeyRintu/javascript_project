@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right bottom, #d65db1, #8e88ef, #00aafe, #00bede, #00c9a7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: monospace;
+    font-size: 27px;
+
+}
+main{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 50px;
+    align-items: stretch;
+    width: 210px;
+    background-color: rgba(255, 255, 255, 0.587);
+    margin: auto;
+    margin-top: 200px;
+}
+ main>* {
+    margin-bottom: 25px;
+ }
+
+ input{
+    padding: 5px 20px 5px 2px;
+ }
+
+ button {
+    border: 1px solid black;
+    /* border: none; */
+    padding: 5px 15px;
+    background-color: rgba(25, 218, 205, 0.664);
+    font-weight: bolder;
+}
+

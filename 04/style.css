@@ -1,0 +1,28 @@
+body {
+    background-color: hsla(0, 0%, 0%, 0.9);
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-family: monospace;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    position: relative;
+    top: 7rem;
+}
+
+textarea{
+    background: rgba(89, 150, 154, 0.306);
+    font-size: 18px;
+    color: aliceblue;
+}
+span{
+    font-size: 32px;
+}
+
+.head {
+    font-size: 44px;
+
+}

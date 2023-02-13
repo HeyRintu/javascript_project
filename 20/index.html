@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget app</title>
+</head>
+<body>
+    <main>
+        <div class="budget">
+            <form action="">
+            <span>Budget</span><input type="number" name="budget" id="budgetNum" placeholder="Enter Your Total Budget">
+            <input type="button" onclick="BudgetSubmit()" value="Submit" id="budgetSubmit">
+            </form>
+        </div>
+    
+    
+        <div class="expense">
+            <span>expenses</span> 
+            <input type="text" name="expense" id="expenseText" placeholder="expense Name">
+            <input type="number" name="expense" id="expenseNumber" placeholder="expense Price">
+            <input type="button" value="Submit" onclick="Expense()" id="ExpenseSubmit">
+        </div>
+
+        <div class="price">
+            <div class="bud">
+                <span>Total Budget</span>
+                <p id="TotalBudget">0</p>
+            </div>
+            <div class="exp">
+                <span>Expenses</span>
+                <p id="TotalExpenses">0</p>
+            </div>
+            <div class="bal">
+                <span>Balance</span>
+                <p id="TotalBal">0</p>
+            </div>
+        </div>
+
+        <div class="expeList" id="expeList">
+            
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>

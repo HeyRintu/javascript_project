@@ -1,0 +1,115 @@
+body{
+    background-image: linear-gradient(to right bottom, #d65db1, #8e88ef, #00aafe, #00bede, #00c9a7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: monospace;
+    font-size: 22px;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    background-color: #75828356;
+    padding: 10px;
+    height: 85vh;
+    width: 50vw;
+    position: relative;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 6vh;
+    
+}
+
+main{
+    /* border: 1px solid rgba(0, 0, 0, 0.26); */
+    height: 92%;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h1{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.645);
+}
+
+p{
+    border: 1px solid rgba(141, 136, 239, 1);
+    width: 7vw;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(141, 136, 239, 0.4);
+}
+.imp{
+    display: flex;
+    
+}
+input{
+    width: 75%;
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    background-color: hsla(184, 72%, 43%, 0.05);
+    border: 1px solid rgba(10, 10, 10, 0.301);
+    border-right: none;
+}
+button{
+    border: 1px solid rgba(10, 10, 10, 0.301);
+    font-size: 17px;
+    width: 25%;
+    background-color: #1fb4be46;
+}
+button:hover{
+    background-color: #1fb3be8c;
+
+}
+
+ul{
+    border: 1px solid black;
+    height: 475px;
+    padding-top: 10px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    list-style-type: none;  
+    align-items: center;
+    overflow-y:scroll;
+}
+ul >*{
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    width: 100%;   
+    margin-top: 10px;
+    padding: 0 0 0 5px;
+    background-color: #00000023;
+    display: flex;
+    justify-content: space-between;
+    
+    cursor: pointer;
+}
+ul >*:hover{
+    background-color: #8d88ef2f;
+}
+
+ul li.done {
+    background: rgba(19, 10, 10, 0.567);
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.close {
+    
+    border-left: 1px solid rgba(0, 0, 0, 0.329);
+    
+    padding:5px 10px;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Arimo&family=DynaPuff&family=Poppins&family=Silkscreen&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    font-family: "Arimo";
+    background-image: url("./pic1.svg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: rgb(23, 20, 20);
+}
+
+main{
+    border: 1px solid black;
+    display:inline-block;
+    padding:20px 70px 100px;
+    background: rgba(255, 242, 242, 0.389);
+}
+p{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(23, 20, 20);
+}
+input,button{
+    font-size: 22px;
+    color: rgb(38, 33, 33);
+    background-color: rgba(254, 255, 251, 0.192);
+    border: 1px solid rgba(0, 0, 0, 0.372);
+    padding: 4px;
+}
+button{
+    padding: 5px 20px;
+}
+
+button:hover{
+    padding: 7px 25px;
+    background-color: rgba(80, 120, 109, 0.192);
+    color: rgba(255, 255, 255, 0.618);
+
+}
+
+.output {
+    display: flex;
+}
